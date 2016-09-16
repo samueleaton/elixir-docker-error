@@ -1,0 +1,7 @@
+defmodule Qpay.PageController do
+  use Qpay.Web, :controller
+
+  def index(conn, _params) do
+    render conn, "index.html"
+  end
+end
